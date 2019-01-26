@@ -1,6 +1,6 @@
 //movement function
 $(function() {
-  $(document).keydown(function(event) {
+  $(document).keydown(function(event){
     switch (event.keyCode) {
       case 37:
         $("ul#boxer").css({

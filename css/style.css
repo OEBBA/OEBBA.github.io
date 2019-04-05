@@ -231,7 +231,7 @@ margin-bottom: auto;
 
 }
 .cardImage{
-    height: 80%;
+    height: 50%;
     width: 100%;
     object-fit: cover;
     display: contain;
@@ -433,9 +433,9 @@ margin-bottom: auto;
     color: #12849f;
 }
 
-#Footer{
+/*footer{
     margin-bottom: 20px;
-}
+}*/
 
 #FooterText{
     margin: 0 auto;

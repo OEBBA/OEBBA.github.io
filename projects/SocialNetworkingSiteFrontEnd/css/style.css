@@ -1,0 +1,161 @@
+header{
+	background-image: linear-gradient(#04519b, #044687 60%, #033769);
+	color:#fff;
+	min-height:100px;
+	padding-top:25px;
+}
+
+header form{
+	float:right;
+}
+
+header .logo{
+	margin-left: 50px;
+	margin-bottom: 20px;
+	width: 10%;
+	border: 1px solid black;
+	border-radius: 8px;
+}
+
+.panel-heading{
+	background-image: linear-gradient(#04519b, #044687 60%, #033769);
+	color:#fff !important;
+}
+
+.comment-avatar img{
+	margin-right: 5px;
+	float:left;
+	margin-top: 5px;
+	padding: 0px 1px 0px 1px;
+	width: 200px;
+}
+
+.comment-text p{
+	float: left;
+	margin-top: 5px;
+}
+
+.panel-body li{
+	list-style: none;
+	padding: 5px;
+	display: inline;
+	float: left;
+}
+
+.panel-body img{
+	width: 55px;
+}
+
+.group-item{
+		margin-top: 8px;
+}
+
+.group-item img{
+	width: 10%;
+}
+
+.bubble{
+	position:relative;
+	width: 500px;
+	min-height: 65px;
+	padding: 15px;
+	background: #fff;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+}
+
+.bubble:after{
+	content:"";
+	position: absolute;
+	border-color: transparent #fff;
+	border-style:solid;
+	border-width: 15px 15px 15px 0;
+	display; block;
+	width: 0;
+	z-index:1;
+	margin-top: -15px;
+	left: -15px;
+	top: 40px;
+}
+
+.bubble:before{
+	content:"";
+	position: absolute;
+	border-style:solid;
+	border-width: 15px 15px 15px 0;
+	border-color: transparent grey;
+	display; block;
+	width: 0;
+	z-index:0;
+	margin-top: -15px;
+	left: -16px;
+	top: 40px;
+}
+
+.comment{
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 3px;
+	overflow:auto;
+	margin: 5px;
+}
+
+.post-actions{
+	margin:5px;
+}
+
+.comment-form .form-group input{
+	width:100%;
+}
+
+.members img{
+	display: inline;
+	float: left;
+	width: 100%
+}
+
+.page-header{
+		margin-top: -1px;
+}
+
+.members a{
+	width: 100%;
+	margin: 10px;
+}
+
+.profile-img{
+	width:100%;
+
+}
+
+.profile ul{
+	float: left;
+	margin-left: -50px;
+}
+
+.profile li{
+	list-style: none;
+	margin: 10px;
+}
+
+@media(max-width: 991px) {
+	.profile li{
+	display: inline-block;
+	}
+}
+
+.photos{
+	margin: 0;
+	padding: 0;
+}
+
+.photos li{
+	list-style:none;
+	float: left;
+	margin: 5px;
+	width: 23%;
+}
+
+.photos img{
+	width: 100%;
+}

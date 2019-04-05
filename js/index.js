@@ -98,6 +98,9 @@ $(document).ready((function() {
         $('#projectCard4').removeClass("animated invisible ");
         $('#projectCard5').removeClass("animated invisible ");
         $('#projectCard6').removeClass("animated invisible ");
+        $('#projectCard7').removeClass("animated invisible ");
+        $('#projectCard8').removeClass("animated invisible ");
+        $('#projectCard9').removeClass("animated invisible ");
         $('#contactCard').removeClass("animated invisible ");
 
 
@@ -320,6 +323,36 @@ $('#projectCard6').addClass('visible');
 };
 }, 750);
 
+
+setTimeout(function(){
+  $('#projectCard7').addClass('fadeIn');
+ if($( "#projectCard7" ).hasClass( "invisible" )){
+$('#projectCard7').removeClass('invisible');
+console.log("Removing Invisible");
+$('#projectCard7').addClass('visible');
+};
+}, 750);
+
+
+setTimeout(function(){
+  $('#projectCard8').addClass('fadeIn');
+ if($( "#projectCard8" ).hasClass( "invisible" )){
+$('#projectCard8').removeClass('invisible');
+console.log("Removing Invisible");
+$('#projectCard7').addClass('visible');
+};
+}, 1050);
+
+setTimeout(function(){
+  $('#projectCard9').addClass('fadeIn');
+ if($( "#projectCard9" ).hasClass( "invisible" )){
+$('#projectCard9').removeClass('invisible');
+console.log("Removing Invisible");
+$('#projectCard9').addClass('visible');
+};
+}, 1050);
+
+
 	    setTimeout(function(){
        	$('#contactCard').addClass('fadeIn');
         if($( "#contactCard" ).hasClass( "invisible" )){
@@ -371,6 +404,15 @@ $('#projectCard6').addClass('visible');
       setTimeout(function(){
   			$('#projectCard6').removeClass('fadeIn');
       }, 750);
+      setTimeout(function(){
+        $('#projectCard7').removeClass('fadeIn');
+      }, 900);
+      setTimeout(function(){
+        $('#projectCard8').removeClass('fadeIn');
+      }, 1050);
+      setTimeout(function(){
+        $('#projectCard9').removeClass('fadeIn');
+      }, 1200);
 
 	   setTimeout(function(){
 			$('#contactCard').removeClass('fadeIn');
